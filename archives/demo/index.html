@@ -6,18 +6,18 @@
 
 		<title>reveal.js</title>
 
-		<link rel="stylesheet" href="../../reaveal/css/reveal.css">
-		<link rel="stylesheet" href="../../reaveal/css/theme/black.css">
+		<link rel="stylesheet" href="../../reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../../reveal.js/css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../reaveal/lib/css/zenburn.css">
+		<link rel="stylesheet" href="../../reveal.js/lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '../../reaveal/css/print/pdf.css' : '../../reaveal/css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../reveal.js/css/print/pdf.css' : '../../reveal.js/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -29,8 +29,8 @@
 			</div>
 		</div>
 
-		<script src="../../reaveal/lib/js/head.min.js"></script>
-		<script src="../../reaveal/js/reveal.js"></script>
+		<script src="../../reveal.js/lib/js/head.min.js"></script>
+		<script src="../../reveal.js/js/reveal.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -38,10 +38,10 @@
 				history: true,
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: '../../reaveal/plugin/markdown/marked.js' },
-					{ src: '../../reaveal/plugin/markdown/markdown.js' },
-					{ src: '../../reaveal/plugin/notes/notes.js', async: true },
-					{ src: '../../reaveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '../../reveal.js/plugin/markdown/marked.js' },
+					{ src: '../../reveal.js/plugin/markdown/markdown.js' },
+					{ src: '../../reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '../../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
